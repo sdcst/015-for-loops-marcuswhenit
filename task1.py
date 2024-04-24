@@ -25,3 +25,9 @@ example:
 Enter number:4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
+
+x = input("enter an integer > ")
+x = int(x)
+
+for i in range(0, 13):
+    print(i * x, end=' ')

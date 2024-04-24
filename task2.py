@@ -14,3 +14,11 @@ Your GST is 2.75
 Your PST is 3.85
 Your total is 61.65
 """
+
+import math
+
+t = 0
+for i in range(1,6):
+    x = input(f"Enret a anumber of itemn #{i} ")
+    x = int(x)
+    t = t + x
